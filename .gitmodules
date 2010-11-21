@@ -10,3 +10,6 @@
 [submodule "bundle/ZenCoding"]
 	path = bundle/ZenCoding
 	url = https://github.com/vim-scripts/ZenCoding.vim.git
+[submodule "bundle/jslint"]
+	path = bundle/jslint
+	url = https://github.com/vim-scripts/jslint.vim.git
