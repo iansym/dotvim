@@ -22,3 +22,6 @@
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = https://github.com/vim-scripts/Command-T.git
+[submodule "bundle/repeat"]
+	path = bundle/repeat
+	url = http://github.com/vim-scripts/repeat.vim.git
