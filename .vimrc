@@ -1,3 +1,7 @@
+" initialize pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 "set syntax highlighting options.
 set t_Co=256
 set background=dark 
