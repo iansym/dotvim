@@ -28,3 +28,6 @@
 [submodule "bunble/matchit"]
 	path = bunble/matchit
 	url = https://github.com/vim-scripts/matchit.zip.git
+[submodule "bunble/ack"]
+	path = bunble/ack
+	url = https://github.com/vim-scripts/ack.vim.git
