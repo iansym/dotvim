@@ -25,3 +25,6 @@
 [submodule "bundle/repeat"]
 	path = bundle/repeat
 	url = http://github.com/vim-scripts/repeat.vim.git
+[submodule "bunble/matchit"]
+	path = bunble/matchit
+	url = https://github.com/vim-scripts/matchit.zip.git
