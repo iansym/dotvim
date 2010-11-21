@@ -7,3 +7,6 @@
 [submodule "bundle/snipMate"]
 	path = bundle/snipMate
 	url = http://github.com/vim-scripts/snipMate.git
+[submodule "bundle/ZenCoding"]
+	path = bundle/ZenCoding
+	url = https://github.com/vim-scripts/ZenCoding.vim.git
