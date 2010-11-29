@@ -44,6 +44,7 @@ set hidden " When a buffer is brought to foreground, remember undo history and m
 set history=1000 " Increase history from 20 default to 1000
 set hlsearch " Highlight searches
 set ignorecase " Ignore case of searches.
+set smartcase " Make searches case sensitive only if they include a capital letter.
 set incsearch " Highlight dynamically as pattern is typed.
 set laststatus=2 " Always show status line
 set magic " Enable extended regexes.
@@ -58,7 +59,7 @@ set report=0 " Show all changes.
 set ruler " Show the cursor position
 set scrolloff=3 " Start scrolling three lines before horizontal border of window.
 set shiftwidth=2 " The # of spaces for indenting.
-set shortmess=I " Don't show the intro message when starting vim.
+set shortmess=atI " Don't show the intro message when starting vim.
 set showmode " Show the current mode.
 set showtabline=2 " Always show tab bar.
 set smarttab " At start of line, <Tab> inserts shiftwidth spaces, <Bs> deletes shiftwidth spaces.
@@ -69,6 +70,7 @@ set suffixes=.bak,~,.swp,.swo,.o,.d,.info,.aux,.log,.dvi,.pdf,.bin,.bbl,.blg,.br
 set title " Show the filename in the window titlebar.
 set ttyfast " Send more characters at a given time.
 set ttymouse=xterm " Set mouse type to xterm.
+set visualbell " make the bell visual
 set wildchar=<TAB> " Character for CLI expansion (TAB-completion).
 set wildignore+=*.o,*.obj,*.min.js,smarty/**,vendor/rails/**,vendor/plugins/**,vendor/gems/**,.git,.hg,.svn,.sass-cache,log,tmp,build,_SCRIPTS,_TESTS
 set wildmenu " Hitting TAB in command mode will show possible completions above command line.
