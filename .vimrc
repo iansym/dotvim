@@ -103,12 +103,12 @@ map <silent> <leader>cs <Esc>:noh<CR>
 " map <silent> <leader>cs <Esc>:let @/ = ""<CR>
 
 " Remap keys for auto-completion, disable arrow keys
-inoremap <expr>  <Esc>      pumvisible() ? "\<C-e>" : "\<Esc>"
-inoremap <expr>  <CR>       pumvisible() ? "\<C-y>" : "\<CR>"
-inoremap <expr>  <Down>     pumvisible() ? "\<C-n>" : "\<NOP>"
-inoremap <expr>  <Up>       pumvisible() ? "\<C-p>" : "\<NOP>"
-inoremap <Left>  <NOP>
-inoremap <Right> <NOP>
+"inoremap <expr>  <Esc>      pumvisible() ? "\<C-e>" : "\<Esc>"
+"inoremap <expr>  <CR>       pumvisible() ? "\<C-y>" : "\<CR>"
+"inoremap <expr>  <Down>     pumvisible() ? "\<C-n>" : "\<NOP>"
+"inoremap <expr>  <Up>       pumvisible() ? "\<C-p>" : "\<NOP>"
+"inoremap <Left>  <NOP>
+"inoremap <Right> <NOP>
 
 " Indent/unident block (,]) (,[)
 nnoremap <leader>] >i{<CR>
