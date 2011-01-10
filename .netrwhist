@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/home/roger/public_html/cbct_modx'
 let g:netrw_dirhist_2='/home/roger/public_html/cbct_modx/template'
+let g:netrw_dirhist_3='/Applications/Adium.app/Contents/Resources/Message Styles/yMous.AdiumMessageStyle'
