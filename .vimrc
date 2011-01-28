@@ -173,6 +173,7 @@ augroup END
 au BufRead,BufNewFile *.css set ft=css syntax=css3
 
 " HTML5
+au BufRead,BufNewFile *.htm set ft=html syntax=html5
 au BufRead,BufNewFile *.html set ft=html syntax=html5
 
 " JSON
