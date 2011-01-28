@@ -11,11 +11,10 @@ syn keyword cssTagName source figcaption
 
 syn keyword cssColorProp contained opacity
 
-syn match cssBoxProp contained /\(-\(webkit\|moz\|o\|ms\)-\)\|filter/
-
 syn match cssTextProp contained "\<word-wrap\>"
 syn match cssTextProp contained "\<text-overflow\>"
 
+syn match cssBoxProp contained /\(-\(webkit\|moz\|o\|ms\)-\)\|filter/
 syn match cssBoxProp contained "\<box-shadow\>"
 syn match cssBoxProp contained "\<border-radius\>"
 syn match cssBoxProp contained "\<border-\(\(top-left\|top-right\|bottom-right\|bottom-left\)-radius\)\>"
