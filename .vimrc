@@ -172,6 +172,10 @@ augroup END
 " JSON
 au BufRead,BufNewFile *.json set ft=json syntax=javascript
 
+" TEA
+au BufRead,BufNewFile *.tea set ft=tea syntax=tea
+au! Syntax tea source ~/.vim/syntax/tea.vim
+
 " Command-T
 let g:CommandTMaxFiles=20000
 let g:CommandTMatchWindowAtTop=1
